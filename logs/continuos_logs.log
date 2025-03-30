@@ -20,3 +20,37 @@
 [2025-03-30 17:19:55,619: INFO: common: created directory at: artifacts/data_ingestion]
 [2025-03-30 17:19:55,619: INFO: data_ingestion: File already exits]
 [2025-03-30 17:19:55,765: INFO: main: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion completed <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<]
+[2025-03-30 17:28:13,181: INFO: config: PyTorch version 2.6.0 available.]
+[2025-03-30 17:28:52,977: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-30 17:28:52,981: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-30 17:28:52,985: INFO: common: created directory at: artifacts]
+[2025-03-30 17:28:52,988: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-30 17:45:36,675: INFO: config: PyTorch version 2.6.0 available.]
+[2025-03-30 17:46:12,885: INFO: config: PyTorch version 2.6.0 available.]
+[2025-03-30 17:46:13,257: INFO: main: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<]
+[2025-03-30 17:46:13,257: ERROR: main: 'DataIngestionTrainingPipeLine' object has no attribute 'initiate_data_ingestion']
+Traceback (most recent call last):
+  File "C:\Users\kk061\OneDrive\Desktop\python\Mlflow Main\Text-Summarizer\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+AttributeError: 'DataIngestionTrainingPipeLine' object has no attribute 'initiate_data_ingestion'
+[2025-03-30 17:46:47,831: INFO: config: PyTorch version 2.6.0 available.]
+[2025-03-30 17:46:48,207: INFO: main: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<]
+[2025-03-30 17:46:48,207: ERROR: main: 'DataIngestionTrainingPipeLine' object has no attribute 'initiate_data_ingestion']
+Traceback (most recent call last):
+  File "C:\Users\kk061\OneDrive\Desktop\python\Mlflow Main\Text-Summarizer\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+AttributeError: 'DataIngestionTrainingPipeLine' object has no attribute 'initiate_data_ingestion'
+[2025-03-30 17:48:33,012: INFO: config: PyTorch version 2.6.0 available.]
+[2025-03-30 17:48:33,433: INFO: main: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<]
+[2025-03-30 17:48:33,433: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-30 17:48:33,433: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-30 17:48:33,433: INFO: common: created directory at: artifacts]
+[2025-03-30 17:48:33,449: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-30 17:49:00,858: INFO: data_ingestion: File is downloaded]
+[2025-03-30 17:49:00,992: INFO: main: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion completed <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<]
+[2025-03-30 17:49:00,992: INFO: main: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Transformation started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<]
+[2025-03-30 17:49:00,995: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-30 17:49:00,996: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-30 17:49:00,997: INFO: common: created directory at: artifacts]
+[2025-03-30 17:49:00,998: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-30 17:49:05,999: INFO: main: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Transformation completed <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<]
